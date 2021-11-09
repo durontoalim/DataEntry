@@ -26,10 +26,59 @@
     
     <!---RESOURCES CSS FILES-->
     
-    <link href="resources/css/style.css" type="text/css" rel="stylesheet"/>
-    <link href="resources/css/responsive.css" type="text/css" rel="stylesheet"/>
+    <link href="src/css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="src/css/responsive.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
+    <div class="header">
+        <div class="container">
+            <div class="head text-center">
+                <h1 class="pt-5">Student Results Entry</h1>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label class="h5" for="name">Student Name</label>
+                    <input type="name" placeholder="Your Name" name="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="number" class="h5">Id</label>
+                    <input class="form-control" type="text" name="Number" placeholder="Your Id Number" >
+                </div>
+                <div class="form-group">
+                    <label for="number" class="h5">Gpa</label>
+                    <input type="number" class="form-control" placeholder="Your GPA">
+                </div>
+                <div class="btn form-group col mx-auto">
+                    <button class="btn btn-primary text-light col-12" type="button">Entry</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <table class="table pt-5">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Id</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Duronto</td>
+                        <td>9965</td>
+                        <td>5.00</td>
+                    </tr>
+                    <tr>
+                        <td>Duronto</td>
+                        <td>9965</td>
+                        <td>5.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
    
     
     
@@ -47,6 +96,6 @@
     <script src="vendor/js/respond.min.js"></script>
     <script src="vendor/js/selectivizr.min.js"></script>
     
-    <script src="resources/js/main.js"></script>
+    <script src="src/js/main.js"></script>
 </body>
 </html>

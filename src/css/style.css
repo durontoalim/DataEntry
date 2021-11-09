@@ -24,10 +24,6 @@ a{
 /*=====================*/
 /* CONTAINER */
 /*=====================*/
-.box {
-    width: 600px;
-    height: 300px;
-    padding: 20px 50px;
-    box-shadow: 0 0  5px #000;
-    margin:20px auto;
+.btn{
+    font-size: 18px;
 }
